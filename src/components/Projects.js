@@ -14,9 +14,9 @@ const Projects = () => {
 
     const renderedProjectList = projectItems.map(project => {
         return (
-            <div style={{ width: 350, height: 400,  margin: 'auto' }}>
+            <div key={project.id} style={{ width: 350, height: 400,  margin: 'auto' }}>
                 <Grid.Col style={{ minHeight: 80 }} span={4}>
-                    <Card key={project.id} shadow="sm" p="lg">
+                    <Card shadow="sm" p="lg">
                         <Card.Section>
                             <Image src={project.img} height={160} alt={project.project} />
                         </Card.Section>
