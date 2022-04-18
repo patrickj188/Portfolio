@@ -23,12 +23,6 @@ const About = () => {
                 </Text>
             </Center>
 
-            <Group className="" position="center" spacing="xl" grow>
-                <Button variant="outline">1</Button>
-                <Button variant="outline">2</Button>
-                <Button variant="outline">3</Button>
-            </Group>
-
 
         </div>
     )
