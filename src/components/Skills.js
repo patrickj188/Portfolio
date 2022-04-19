@@ -12,8 +12,6 @@ const renderedSkills = skills.map(skill => {
         </Grid.Col>
     )
 })
-
-
     return (
         <Grid>
             {renderedSkills}
