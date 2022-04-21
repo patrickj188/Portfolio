@@ -1,11 +1,22 @@
 * { 
     margin: 0; 
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 .appContainer{
 
-    padding-top: 120px;
-    justify-content: center;
     
 }
 
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageAndTextWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
