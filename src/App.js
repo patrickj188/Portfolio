@@ -53,7 +53,12 @@ let App = () => {
         scrollProjects={scrollProjects}
 
       />
-      <div className='appContainer'>
+      <Container size={1320} className='appContainer'>
+
+      <div ref={aboutSection}>
+        <About />
+      </div>
+      <div >
       <div ref={projectsSection}>
         <Projects />
       </div>
@@ -61,23 +66,10 @@ let App = () => {
       <div ref={skillsSection} >
         <Skills />
       </div>
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
-      <div ref={skillsSection} >
-        <Skills />
-      </div> 
+
 
       </div>
+      /</Container>
     </div>
 
   );

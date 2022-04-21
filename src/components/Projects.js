@@ -40,7 +40,7 @@ const Projects = () => {
     })
 
     return (
-        <div className="fadein">
+        <div className="projectContainer">
             <SimpleGrid cols={3}>
              {renderedProjectList}
             </SimpleGrid>

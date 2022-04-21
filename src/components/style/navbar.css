@@ -23,7 +23,7 @@
   }
 
   .name {
-      padding-left: 100px;
+      padding-left: 120px;
       color: #026E81;
   }
 
@@ -36,7 +36,7 @@
 }
 
 .button {
-    width: 30%;
+    width: 28%;
     margin: 5px;
     padding: 5px;
     cursor: pointer;
