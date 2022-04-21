@@ -1,28 +1,18 @@
 import React, { useState } from 'react';
 import {
     Text,
-    Button
+    Button,
+    Group
 } from '@mantine/core';
 
 
 const NavbarItems = ({ about, project, skills }) => {
     return (
         <div>
-            <Text>
-                <Button onClick={about} variant="subtle" color="dark" radius="md" size="xl">
-                    About
-                </Button>
-            </Text>
-            <Text>
-                <Button onClick={project} variant="subtle" color="dark" radius="md" size="xl">
-                    Projects
-                </Button>
-            </Text>
-            <Text>
-                <Button onClick={skills} variant="subtle" color="dark" radius="md" size="xl">
-                    Skills
-                </Button>
-            </Text>
+    <Group position="center" spacing="xl" grow>
+      <Button onClick={about}  variant="outline">About</Button>
+      <Button onClick={project} variant="outline">Projects</Button>
+    </Group>
         </div >
     )
 }

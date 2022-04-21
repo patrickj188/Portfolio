@@ -1,16 +1,35 @@
-.aboutImg {
-    max-width: 600px;
-    width: auto;
-    height: auto;
+.aboutImgLeft {
+    max-width: 500px;
     clip-path: circle();
-    margin: 10px;
-    
+    width: 70%;
+    float: left;
 
 }
 
-.aboutText {
+.aboutTextRight {
+    height: auto;
+    width: 40%;
     float: right;
-    margin: 40px;
-    padding: 40px;
-    font-size: large;
+
+
+}
+
+
+.aboutImgRight {
+    max-width: 500px;
+    clip-path: circle();
+    width: 70%;
+    float: right;
+
+}
+
+.aboutTextLeft {
+    height: auto;
+    width: 40%;
+    float: right;
+
+}
+
+.container {
+    margin-top: 10px;
 }

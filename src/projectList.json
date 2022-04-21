@@ -22,29 +22,5 @@
     "website": "https://serene-earth-22885.herokuapp.com/",
     "githubLink": "https://github.com/patrickj188/ClickyGame",
     "img": "http://darksouls.wdfiles.com/local--files/bosses/gaping-dragon-large.jpg"
-  },
-  {
-    "id": "Fourth",
-    "project": "Signal",
-    "about": "Tell signal what your hungry for, or what kind of activities and music you like, and we will take care of the rest. Signal will cut out all of the noise and give you the two best options. Signal takes away the headache of endless searching and scrolling.",
-    "website": "https://crcass.github.io/project-one",
-    "githubLink": "https://github.com/crcass/project-one",
-    "img": "https://raw.githubusercontent.com/crcass/project-one/master/assets/images/signal.jpg"
-  },
-  {
-    "id": "Fifth",
-    "project": "Train Scheduler",
-    "about": "Personal train scheduler website! Input your daily or weekly train schedules, and we will keep track of departure and arrival times. No point in wasting your time trying to find your specific train added to the website, and we will take care of it for you.",
-    "website": "https://patrickj188.github.io/Train_Scheduler/",
-    "githubLink": "https://github.com/patrickj188/Train_Scheduler",
-    "img": "https://raw.githubusercontent.com/patrickj188/Patrick-Johnson-Portfolio/master/assets/images/2.png"
-  },
-  {
-    "id": "Sixth",
-    "project": "Dark Souls 1 - Bosses",
-    "about": "Practicing with CSS animation. The webpage shows all of DarkSouls 1 bosses and their lore.",
-    "website": "https://patrickj188.github.io/Practice/",
-    "githubLink": "https://github.com/patrickj188/Practice",
-    "img": "https://raw.githubusercontent.com/patrickj188/DarkSoulsBosses/master/img/DSBosses.png"
   }
 ]
