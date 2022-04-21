@@ -11,29 +11,19 @@ const About = () => {
     return (
 
         <div style={{  zIndex:300}}>
-            <Container>
 
-                <img className="aboutImgLeft" src={patrickPhoto} alt='' />
-                <p className="aboutTextRight" >
-                    <Center><h1>Hi! I'm Patrick</h1></Center>
-                    I am a full stack developer from Southern California . Welcome to my
-                    portfolio! Take a look around, and if you like what you see, give me a
-                    shout and let's talk!
-                </p>
+            <Container className="imageAndTextWrapper">
 
-            </Container>
-
-            <Container className="container">
-
-                <img className="aboutImgRight" src={motelPic} alt='' />
                 <p className="aboutTextLeft" >
                     <Center> <h1>A few words about me</h1></Center>
                   BIG DICK ENERGY
                 </p>
+                <img className="aboutImgRight" src={motelPic} alt='' />
+
 
             </Container>
 
-            <Container>
+            <Container className="imageAndTextWrapper">
 
                 <img className="aboutImgLeft" src={smash} alt='' />
                 <p className="aboutTextRight" >
@@ -45,9 +35,8 @@ const About = () => {
                 </p>
 
             </Container>
-
-
         </div>
+
     )
 }
 

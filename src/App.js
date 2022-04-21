@@ -15,8 +15,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar'
 import '../src/components/style/app.css'
-
-
+import Intro from './components/Intro';
 
 let App = () => {
   const aboutSection = useRef(null);
@@ -53,22 +52,25 @@ let App = () => {
         scrollProjects={scrollProjects}
 
       />
+
       <Container size={1320} className='appContainer'>
 
-      <div ref={aboutSection}>
-        <About />
-      </div>
-      <div >
-      <div ref={projectsSection}>
-        <Projects />
-      </div>
+        <div className="section">
+          <Intro />
+        </div>
 
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
+        <div ref={aboutSection} className="section">
+          <About />
+        </div>
 
+        <div ref={projectsSection} className="section">
+          <Projects />
+        </div>
 
-      </div>
+        <div ref={skillsSection}  className="section">
+          <Skills />
+        </div>
+
       /</Container>
     </div>
 
