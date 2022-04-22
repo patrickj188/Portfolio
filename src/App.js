@@ -1,16 +1,8 @@
 import React, { useRef } from 'react';
 import {
-  AppShell,
-  Header,
-  MediaQuery,
-  Burger,
-  useMantineTheme,
-  Text,
-  Center,
   Container,
   Divider
 } from '@mantine/core';
-import NavbarItems from './components/NavbarItems';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -18,6 +10,7 @@ import Navbar from './components/Navbar'
 import '../src/components/style/app.css'
 import Intro from './components/Intro';
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 
@@ -25,6 +18,8 @@ let App = () => {
   const aboutSection = useRef(null);
   const skillsSection = useRef(null);
   const projectsSection = useRef(null);
+  const contactSection = useRef(null);
+  const introSection = useRef(null);
 
   const scrollAbout = () => {
     window.scrollTo({
@@ -47,6 +42,20 @@ let App = () => {
     });
   };
 
+  const scrollContact = () => {
+    window.scrollTo({
+      top: contactSection.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
+  const scrollIntro = () => {
+    window.scrollTo({
+      top: introSection.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
+
   return (
 
     <div >
@@ -54,13 +63,15 @@ let App = () => {
         scrollAbout={scrollAbout}
         scrollSkills={scrollSkills}
         scrollProjects={scrollProjects}
+        scrollContact={scrollContact}
 
       />
 
-      <div className="section">
+      <div ref={introSection} className="section">
         <Intro />
       </div>
       <Container size={1320} className='appContainer'>
+        <Divider className="divider" my="sm" />
 
         <div ref={aboutSection} className="section">
           <About />
@@ -80,7 +91,16 @@ let App = () => {
 
         <Divider className="divider" my="sm" />
 
-        <Contact />
+        <div ref={contactSection} className='section'>
+          <Contact />
+        </div>
+
+        <Divider className="divider" my="sm" />
+
+        <Footer 
+        scrollIntro={scrollIntro}
+        />
+ 
       </Container>
 
     </div>

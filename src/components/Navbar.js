@@ -1,7 +1,7 @@
 import React from "react";
 import '../components/style/navbar.css';
 
-const Navbar = ({ scrollSkills, scrollAbout, scrollProjects }) => {
+const Navbar = ({ scrollSkills, scrollAbout, scrollProjects, scrollContact}) => {
 
 
   return (
@@ -16,6 +16,7 @@ const Navbar = ({ scrollSkills, scrollAbout, scrollProjects }) => {
         <button className="button" onClick={scrollAbout}>About</button>
         <button className="button" onClick={scrollProjects}>Projects</button>
         <button className="button" onClick={scrollSkills}>Skills</button>
+        <button className="button" onClick={scrollContact}>Contact</button>
       </div>
     </div>
 
