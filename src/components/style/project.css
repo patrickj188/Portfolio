@@ -2,7 +2,12 @@
 
     width: 100%;
     height: 480px;
-
     top: auto;
+    margin: 40px 0;
 
+}
+
+.projectTitle {
+
+    padding-bottom: 40px;
 }

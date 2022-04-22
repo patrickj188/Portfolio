@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image, Text, Badge, Group, useMantineTheme, SimpleGrid } from '@mantine/core';
+import { Card, Image, Text, Badge, Group, useMantineTheme, SimpleGrid, Center } from '@mantine/core';
 import projectItems from "../projectList.json"
 import '../components/style/project.css'
 
@@ -15,7 +15,7 @@ const Projects = () => {
 
     const renderedProjectList = projectItems.map(project => {
         return (
-            <div>
+    
                 <Card shadow="sm" p="lg">
                     <Card.Section>
                         <Image src={project.img} height={160} alt={project.project} />
@@ -35,12 +35,12 @@ const Projects = () => {
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>GitHub</a>
                     </Badge>
                 </Card>
-            </div>
         )
     })
 
     return (
         <div className="projectContainer">
+           <Center className="projectTitle">   <h1>Some Projects</h1></Center>
             <SimpleGrid cols={3}>
              {renderedProjectList}
             </SimpleGrid>

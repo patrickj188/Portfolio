@@ -1,11 +1,78 @@
-* { 
-    margin: 0; 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;600&family=Manrope:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.appContainer{
 
-    padding-top: 120px;
+.appContainer {
+
+
     justify-content: center;
-    
+
 }
 
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageAndTextWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.divider {
+    margin: 60px 0;
+}
+
+
+.intro {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../content/ghost.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    object-position: center center;
+    color: #FBAD7D;
+    opacity: 1;
+    max-width: 2831px;
+    text-shadow: 1;
+
+}
+
+.aboutContainer {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 1.0875rem 1.45rem;
+    margin-top: -20%;
+
+
+}
+
+.introName {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+}
+
+.aboutText {
+     font-family: 'Manrope', sans-seri;
+     font-weight: 500;
+     font-size: 40px;
+}
+
+.logoItem {
+    filter: invert(1);
+    padding: 10px;
+}

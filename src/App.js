@@ -8,6 +8,7 @@ import {
   Text,
   Center,
   Container,
+  Divider
 } from '@mantine/core';
 import NavbarItems from './components/NavbarItems';
 import About from './components/About';
@@ -15,6 +16,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar'
 import '../src/components/style/app.css'
+import Intro from './components/Intro';
+import Contact from './components/Contact'
 
 
 
@@ -25,7 +28,7 @@ let App = () => {
 
   const scrollAbout = () => {
     window.scrollTo({
-      top: aboutSection.current.offsetTop,
+      top: aboutSection.current.offsetHeight,
       behavior: 'smooth',
     });
   };
@@ -53,23 +56,33 @@ let App = () => {
         scrollProjects={scrollProjects}
 
       />
+
+      <div className="section">
+        <Intro />
+      </div>
       <Container size={1320} className='appContainer'>
 
-      <div ref={aboutSection}>
-        <About />
-      </div>
-      <div >
-      <div ref={projectsSection}>
-        <Projects />
-      </div>
+        <div ref={aboutSection} className="section">
+          <About />
+        </div>
 
-      <div ref={skillsSection} >
-        <Skills />
-      </div>
+        <Divider className="divider" my="sm" />
 
+        <div ref={projectsSection} className="section">
+          <Projects />
+        </div>
 
-      </div>
-      /</Container>
+        <Divider className="divider" my="sm" />
+
+        <div ref={skillsSection} className="section">
+          <Skills />
+        </div>
+
+        <Divider className="divider" my="sm" />
+
+        <Contact />
+      </Container>
+
     </div>
 
   );

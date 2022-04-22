@@ -1,6 +1,4 @@
 import React from "react";
-import styled from "styled-components";
-import NavbarItems from "./NavbarItems";
 import '../components/style/navbar.css';
 
 const Navbar = ({ scrollSkills, scrollAbout, scrollProjects }) => {
