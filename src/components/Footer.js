@@ -14,7 +14,7 @@ const Footer = ({ scrollIntro }) => {
                 <div className='footer'>
                     <button onClick={scrollIntro} class="footerButton">^</button>
                     <br />
-                    <h4 >you can also find me here</h4>
+                    <h4 >You can also find me here</h4>
                     <Center>
                         <a href="https://github.com/patrickj188" target="_blank">
                             <img className="footerItem" src={githubLogo} />
