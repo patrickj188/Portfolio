@@ -76,3 +76,120 @@ section {
     filter: invert(1);
     padding: 10px;
 }
+
+@media only screen and (max-width: 1350px) {
+    .aboutContainer {
+        padding: 0 1.0875rem 1.45rem;
+        margin-top: -30%;
+    
+    }
+    .introName {
+        font-size: 100px;
+    }
+    
+    .aboutText {
+         font-size: 40px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .aboutContainer {
+        padding: 0 1.0875rem 1.45rem;
+        margin-top: -20%;
+    
+    }
+
+    .introName {
+        font-size: 80px;
+    }
+    
+    .aboutText {
+         font-size: 35px;
+    }
+    .intro {
+        height: 60vh;
+
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .aboutContainer {
+        padding: 0 1.0875rem 1.45rem;
+        margin-top: -5%;
+
+    
+    }
+
+    .introName {
+        font-size: 80px;
+
+    }
+    
+    .aboutText {
+         font-size: 35px;
+
+    }
+    .intro {
+        height: 50vh;
+
+    
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .aboutContainer {
+        padding: 0 1.0875rem 1.45rem;
+        margin-top: -10%;
+    
+    }
+
+    .introName {
+        font-size: 60px;
+    }
+    
+    .aboutText {
+         font-size: 30px;
+         margin-top: 60px;
+    }
+
+    .intro {
+        height: 50vh;
+
+    
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .aboutContainer {
+        /* padding: 0 1.0875rem 1.45rem; */
+        margin-top: 0%;
+    
+    }
+
+    .introName {
+        font-size: 30px;
+    }
+    
+    .aboutText {
+         font-size: 18px;
+
+    }
+
+    .intro {
+        height: 40vh;
+
+    
+    }
+
+}

@@ -59,4 +59,84 @@
 
 }
 
+
+@media only screen and (max-width: 400px) {
+  .button {
+    width: atuo;
+    margin: 1px;
+    font-size: small;
+
+  
+}
+
+.name{
+  font-size: small;
+
+}
+
+.navName {
+  width: 30%;
+  padding: 5px;
+
+}
+.navButtons {
+  width: 70%;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+  .button {
+    width: atuo;
+  
+}
+
+.name{
+  font-size: medium;
+
+}
+
+.navName {
+  width: 30%;
+  padding: 5px;
+
+}
+.navButtons {
+  width: 60%;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+}
+
+@media only screen and (max-width: 550px) {
+  .button {
+    width: atuo;
+    font-size: small;
+  
+}
+
+.name{
+  font-size: medium;
+
+}
+
+.navName {
+  width: 30%;
+  padding: 5px;
+
+}
+.navButtons {
+  width: 60%;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+}
+
   

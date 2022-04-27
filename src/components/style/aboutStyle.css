@@ -4,7 +4,7 @@
 .aboutImgLeft {
     max-width: 500px;
     clip-path: circle();
-    width: 70%;
+    width: 60%;
     float: left;
 
 }
@@ -48,3 +48,113 @@
 .aboutTitle{
     font-family: 'Manrope', sans-seri;
 }
+
+@media only screen and (max-width: 400px) {
+
+    .aboutImgLeft {
+        max-width: 200px;
+        width: 40%;
+    
+    }
+    
+    .aboutTextRight {
+        height: auto;
+        width: 60%;
+        font-size: small;
+    
+    
+    }
+    
+    
+    .aboutImgRight {
+        max-width: 200px;
+        width: 40%;
+    
+    
+    }
+    
+    .aboutTextLeft {
+        height: auto;
+        width: 60%;
+        font-size: small;
+    
+    
+    }
+    .aboutTitle{
+        font-size: medium;
+    }
+
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .aboutImgLeft {
+        max-width: 400px;
+        width: 60%;
+    
+    }
+    
+    .aboutTextRight {
+        height: auto;
+        width: 40%;
+        font-size: small;
+    
+    
+    }
+    
+    
+    .aboutImgRight {
+        max-width: 400px;
+        width: 60%;
+    
+    
+    }
+    
+    .aboutTextLeft {
+        height: auto;
+        width: 40%;
+        font-size: medium;
+    
+    
+    }
+    .aboutTitle{
+        font-size: large;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+
+    .aboutImgLeft {
+        max-width: 200px;
+        width: 50%;
+    
+    }
+    
+    .aboutTextRight {
+        height: auto;
+        width: 50%;
+        font-size: small;
+    
+    
+    }
+    
+    
+    .aboutImgRight {
+        max-width: 200px;
+        width: 50%;
+    
+    
+    }
+    
+    .aboutTextLeft {
+        height: auto;
+        width: 50%;
+        font-size: medium;
+    
+    
+    }
+    .aboutTitle{
+        font-size: medium;
+    }
+
+  }

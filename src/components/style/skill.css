@@ -1,3 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;600&family=Manrope:wght@200;600&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;600&family=Manrope:wght@200;600&display=swap');
+
+
 .skillTitle{
     padding-bottom: 40px;
+
 }
+.skillsTitle{
+    height: auto;
+    width: auto;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+#wrapper {
+    display: flex;
+}
+#div1 {
+    width:50%;
+    height:auto;
+    padding: 10px 0;
+}
+#div2 {
+    width:50%;
+    height:auto;
+    padding: 10px 0;
+}
+
+.listWrapper {
+    float: left;
+  }
+  
+  .listText {
+    font-family: 'Poppins', sans-serif;
+  }
+
+@media only screen and (max-width: 400px) {
+    #wrapper {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    #div1 {
+        width: auto;
+
+    }
+    #div2 {
+        width: auto;
+
+ 
+    }
+
+    .skillsTitle{
+        font-size: 25px;
+    }
+    
+
+
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    #wrapper {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    #div1 {
+        width: auto;
+
+    }
+    #div2 {
+        width: auto;
+
+ 
+    }
+
+    .skillsTitle{
+        font-size: 30px;
+    }
+    
+
+
+
+  }
+
+

@@ -6,8 +6,8 @@ const Contact = () => {
     return (
 
         <div>
-            <h2 class="pageHeader">Contact Details</h2>
             <div className='contactPage'>
+            <h2 class="pageHeader">Contact Details</h2>
                 <div className='address'>
                     <h4 className='addressTitle'>name</h4>
                     <p className='addressInfo'>Patrick Johnson</p>

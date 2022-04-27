@@ -11,3 +11,27 @@
 
     padding-bottom: 40px;
 }
+
+@media only screen and (max-width: 400px) {
+
+    .projectContainer{
+        width: auto;
+        height: auto;
+        top: auto;
+        margin: 40px 0;
+    
+    }
+
+
+  }
+  @media only screen and (max-width: 800px) {
+    .projectContainer{
+        width: auto;
+        height: auto;
+        top: auto;
+
+    
+    }
+
+
+  }
