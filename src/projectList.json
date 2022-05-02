@@ -16,7 +16,7 @@
     "img": "https://raw.githubusercontent.com/patrickj188/react-poke/master/src/components/style/ReactPoke.png"
   },
   {
-    "id": "Third",
+    "id": "Third",s
     "project": "Dark Souls Clicky game",
     "about": "Click on an image to earn points, but don't click on any more than once!",
     "website": "https://serene-earth-22885.herokuapp.com/",

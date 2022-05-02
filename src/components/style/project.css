@@ -4,12 +4,15 @@
     height: 480px;
     top: auto;
     margin: 40px 0;
+    
 
 }
 
 .projectTitle {
 
     padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 @media only screen and (max-width: 400px) {
