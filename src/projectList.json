@@ -13,7 +13,7 @@
     "about": "Pokedex that allows oyu to create a Pokemon team.",
     "website": "https://react-poke.vercel.app",
     "githubLink": "https://github.com/patrickj188/react-poke",
-    "img": "https://raw.githubusercontent.com/patrickj188/burger/master/public/assets/img/burger.jpeg"
+    "img": "https://raw.githubusercontent.com/patrickj188/react-poke/master/src/components/style/ReactPoke.png"
   },
   {
     "id": "Third",
