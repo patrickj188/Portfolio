@@ -6,10 +6,23 @@ import githubLogo from "../components/content/GitHub-Mark-32px.png"
 import linkedinLogo from "../components/content/linkedin-32.png"
 import resumeLogo from "../components/content/resume.png"
 import resume from '../components/content/PatrickJohnson_ResumeV3.pdf'
+import { motion } from 'framer-motion';
 
 const Intro = () => {
+    const variants = {
+        hidden: { opacity: 0, x: 0, y: 0 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 0, x: 0, y: 0 },
+      };
 
     return (
+        <motion.main
+        initial="hidden"
+        animate="enter"
+        exit="exit"
+        variants={variants}
+        transition={{ type: 'linear' }}
+      >
         <div className="intro">
             <div className="aboutContainer" >
                 <Center>
@@ -36,6 +49,7 @@ const Intro = () => {
             </div>
 
         </div>
+        </motion.main>
     )
 }
 
