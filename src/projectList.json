@@ -1,11 +1,11 @@
 [
   {
     "id": "First",
-    "project": "TaskBidder",
-    "about": "TaskBidder allows for you to put those pesky time-consuming chores up for sale, and allows others to become the extra hands you need! You have tasks that need to get done, and people are willing to do them.",
-    "website": "https://cherry-tart-69309.herokuapp.com/",
-    "githubLink": "https://github.com/Kclaster/todo",
-    "img": "https://raw.githubusercontent.com/Kclaster/todo/master/client/src/pictures/TaskBidder%20Home.png"
+    "project": "The Watch Pile",
+    "about": "The Watch Pile allows a user to search movies/TV shows and save them to their profile.",
+    "website": "https://movie-search-rouge.vercel.app",
+    "githubLink": "https://github.com/patrickj188/movie-search",
+    "img": "https://github.com/patrickj188/movie-search/blob/main/public/MovieSearch%20Front%20Page.png"
   },
   {
     "id": "Second",
